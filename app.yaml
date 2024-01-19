@@ -1,0 +1,6 @@
+runtime: python37
+entrypoint: honcho start prod --no-prefix
+service: backend
+
+env_variables:
+  APP_ENV: STAGE
